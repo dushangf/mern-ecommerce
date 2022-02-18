@@ -1,0 +1,39 @@
+* {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.cart-btn {
+   position: relative;
+}
+
+.cart {
+   position: absolute;
+   right: 20px;
+   top: 8px;
+}
+.count-div {
+   position: relative;
+}
+.count {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+.order-items::-webkit-scrollbar {
+   width: 0.5em;
+}
+
+.order-items::-webkit-scrollbar-thumb {
+   background-color: #6ee7b7;
+   border-radius: 10px;
+}
+.admin-items::-webkit-scrollbar {
+   width: 0.5em;
+}
+
+.admin-items::-webkit-scrollbar-thumb {
+   background-color: #6ee7b7;
+   border-radius: 10px;
+}
